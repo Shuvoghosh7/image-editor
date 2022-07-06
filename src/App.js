@@ -21,7 +21,7 @@ function App() {
       },
       uiSize: {
         width: "100%",
-        height: "630px",
+        height: "700px",
       },
       menu: [
         "crop",
