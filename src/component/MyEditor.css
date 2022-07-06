@@ -1,0 +1,33 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+
+  }
+  
+  .editor-container {}
+  
+  .PR {
+    position: relative;
+  }
+  
+  .zoom {
+    position: absolute;
+    left: 20%;
+    color: black;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    color: wheat;
+  }
+  
+  .zoom span {
+    cursor: pointer;
+    font-size: 30px;
+    margin: 0 20px
+  }
+  
+  .disabled {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  

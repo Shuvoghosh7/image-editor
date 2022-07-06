@@ -1,19 +1,27 @@
 import './App.css';
 import MyEditor from './component/MyEditor';
+import './component/MyEditor.css'
+
 function App() {
   const myTheme = {
-    // Theme object to extends default dark theme.
+    "common.bisize.width": "0",
+    "common.bisize.height": "0",
+
+    // header
+    "header.backgroundImage": "none",
+    "header.backgroundColor": "transparent",
+    "header.border": "0px",
   };
   const props = {
     includeUI: {
       loadImage: {
         path:
-          "https://i1.wp.com/www.tor.com/wp-content/uploads/2018/10/Malazan-Kotaki.jpg?fit=740%2C386&type=vertical&quality=100&ssl=1",
+          "",
         name: "SampleImage",
       },
       uiSize: {
         width: "100%",
-        height: "700px",
+        height: "630px",
       },
       menu: [
         "crop",
